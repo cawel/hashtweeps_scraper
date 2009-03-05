@@ -1,6 +1,6 @@
 == HashTweeps scraper
 
-Scrubyt-based scraper for scraping twitter profile info related to a specified hash term.
+Scrubyt-based scraper for scraping twitter profile info related to a specified hash term (on http://www.hashtweeps.com).
 
 
 == Instructions
