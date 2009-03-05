@@ -24,5 +24,5 @@ data = Scrubyt::Extractor.define do
 	end
 end
 
-dump = File.new("output.xml")
+dump = File.new("output.xml", "w")
 dump.puts data.to_xml
