@@ -6,16 +6,16 @@
 	<xsl:template match="/">
 		<html>
 			<body>
-				<h2>Tweets on 'leadscon' hash</h2>
-				<table border="1">
-					<tr bgcolor="#9acd32">
-						<th align="left">User</th>
-						<th align="left">Info</th>
+				<h2 align="center">Tweets on 'leadscon' hash</h2>
+				<table border="0">
+					<tr style="background-color:#f00">
+						<th style="padding: 5px">USER</th>
+						<th>INFO</th>
 					</tr>
 					<xsl:for-each select="root/item">
-						<tr>
-							<td><a href="{link}"><xsl:value-of select="msg"/></a></td>
-							<td><b>Full name</b>: <xsl:value-of select="user/profile_info/full_name"/><br/>
+						<tr style="background-color:#eee;">
+							<td style="padding:10px; "><a href="{link}"><xsl:value-of select="msg"/></a></td>
+							<td style="padding:10px"><b>Full name</b>: <xsl:value-of select="user/profile_info/full_name"/><br/>
 								<b>Location</b>: <xsl:value-of select="user/profile_info/location"/><br/>
 								<b>Website</b>: <a href="{user/profile_info/website}"><xsl:value-of select="user/profile_info/website"/></a><br/>
 									<b>Bio</b>: <xsl:value-of select="user/profile_info/bio"/><br/>
