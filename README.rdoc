@@ -1,0 +1,10 @@
+== HashTweeps scraper
+
+Scrubyt-based scraper for scraping twitter profile info related to a specified hash term
+
+
+== Instructions
+
+Specify the hash term in scarper.rb
+Run the scraper with: ruby scraper.rb
+The output will be written in 'output.xml', for which you can provide a XSLTto convert it to XHTML
