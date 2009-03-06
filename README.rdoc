@@ -7,7 +7,9 @@ Scrubyt-based scraper (on http://www.hashtweeps.com) for scraping twitter profil
 
 * Specify the hash term in scraper.rb
 * Run the scraper with: 
+
   ruby scraper.rb
+
 * The output will be written in 'output.xml'
 
 
