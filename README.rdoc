@@ -1,15 +1,16 @@
 == HashTweeps scraper
 
-Scrubyt-based scraper (on http://www.hashtweeps.com) for scraping twitter profile info related to a specified hash term.
+Scrubyt-based scraper (on http://www.hashtweeps.com) for scraping twitter profile info related to a specific hash term.
 
 
 == Instructions
 
-* Specify the hash term in scarper.rb
-* Run the scraper with: ruby scraper.rb
+* Specify the hash term in scraper.rb
+* Run the scraper with: 
+  ruby scraper.rb
 * The output will be written in 'output.xml'
 
 
 == Example
 
-An example for the term 'leadscon' has been done and put in the 'leadscon' directory, along with a very sipmle XSLT.
+An example for the hash term 'leadscon' has been done and put in the 'example' directory, along with a very sipmle XSLT.
