@@ -1,4 +1,4 @@
-== HashTweeps scraper
+= HashTweeps scraper
 
 Scrubyt-based scraper (on http://www.hashtweeps.com) for scraping twitter profile info related to a specific hash term.
 
@@ -16,3 +16,8 @@ Scrubyt-based scraper (on http://www.hashtweeps.com) for scraping twitter profil
 == Example
 
 An example for the hash term 'leadscon' has been done and put in the 'example' directory, along with a very sipmle XSLT.
+
+
+== License
+
+GPL2
