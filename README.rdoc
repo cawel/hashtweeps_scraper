@@ -20,4 +20,4 @@ An example for the hash term 'leadscon' has been done and put in the 'example' d
 
 == License
 
-GPL2
+Same as Scrubyt project's: GPL2
